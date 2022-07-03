@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <style data-merge-styles="true"></style>
+
+  <meta charset="UTF-8">
+  <title>CodePen Demo</title>
+
+  <meta name="robots" content="noindex">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link rel="canonical" href="https://codepen.io/GreenSock/pen/YzyqVNe">
+
+
+
+  <link rel="stylesheet" href="https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b.css">
+
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    .content-container {
+      display: flex;
+    }
+
+    .content-container>* {
+      width: 50%;
+    }
+
+    .right-content {
+      padding-right: 15px;
+    }
+
+    .left-content {
+      height: 100vh;
+      position: relative;
+    }
+
+    .left-content>* {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    @media screen and (max-width: 800px) {
+      .left-content {
+        display: none;
+      }
+
+      .right-content {
+        padding-left: 15px;
+      }
+    }
+  </style>
+
+
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-7549a40147ccd0ba0a6b5373d87e770e49bb4689f1c2dc30cccc7463f207f997.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script>
+  <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
+</head>
+
+<body style="">
+  <h1 class="header-section">Scroll down to some different pinned content shown</h1>
+
+  <div class="content-container">
+    <div class="pin-spacer" style="order: 0; place-self: auto; grid-area: auto / auto / auto / auto; z-index: auto; float: none; flex-shrink: 1; display: none; margin: 0px; inset: auto; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 0px; height: 0px; padding: 0px;">
+      <div class="left-content" style="transform: translate(0px, 0px); inset: 0px auto auto 0px; margin: 0px; max-width: 50%; width: 50%; max-height: 866px; height: 866px; padding: 0px;">
+        <img id="img1" class="imageToShow" src="https://placekitten.com/300/700?image=1" alt="kitty" style="transform: translate(-50%, -50%); transform-origin: 50% 50%; opacity: 1; visibility: inherit;">
+        <img id="img2" class="imageToShow" src="https://placekitten.com/300/700?image=2" alt="kitty" style="transform: translate(-50%, -50%); transform-origin: 50% 50%; opacity: 0; visibility: hidden;">
+        <blockquote id="text1" class="textToShow" cite="https://www.youtube.com/watch?v=PKffm2uI4dk" style="transform: translate(-50%, -50%); transform-origin: 0% 50%; opacity: 0; visibility: hidden;">
+          <p>Cat ipsum dolor sit amet, attack the child i show my fluffy belly but it's a trap!</p>
+          <footer>— Fluffy, the kitten <cite>Sad Cat Diary</cite></footer>
+        </blockquote>
+        <img id="img3" class="imageToShow" src="https://placekitten.com/300/700?image=3" alt="kitty" style="transform: translate(-50%, -50%); transform-origin: 50% 50%;">
+      </div>
+    </div>
+
+    <div class="right-content">
+      <p class="contentMarker" data-marker-content="img1">Cat ipsum dolor sit amet, attack the child i show my fluffy belly but it's a trap!</p>
+
+      <p>if you pet it i will tear up your hand, but chase ball of string. Poop on couch hate dog, yet mouse and catch eat throw up catch eat throw up bad birds curl into a furry donut. Bite nose of your human you have cat to be kitten me right meow kitty poochy put toy mouse in food bowl run out of litter box at full speed , for stand with legs in litter box, but poop outside. Eat all the power cords. X poop in the plant pot. Pooping rainbow while flying in a toasted bread costume in space.</p>
+
+      <p>Hiding behind the couch until lured out by a feathery toy instead of drinking water from the cat bowl, make sure to steal water from the toilet so hide at bottom of staircase to trip human stinky cat, or favor packaging over toy, sit on human they not getting up ever so x. Run outside as soon as door open caticus cuteicus 𝕄𝔼𝕆𝕎, and chase imaginary bugs, and scratch my tummy actually i hate you now fight me scratch leg; meow for can opener to feed me.</p>
+
+      <p class="contentMarker" data-marker-content="img2">do not try to mix old food with new one to fool me! do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life and throw down all the stuff in the kitchen. Find empty spot in cupboard and sleep all day i want to go outside let me go outside nevermind inside is better so i like cats because they are fat and fluffy scratch my tummy actually i hate you now fight me and lick the other cats thug cat.</p>
+
+      <p>When owners are asleep, cry for no apparent reason love you, then bite you push your water glass on the floor or swipe at owner's legs and toy mouse squeak roll over. Cough furball into food bowl then scratch owner for a new one. Damn that dog cat walks in keyboard so hide at bottom of staircase to trip human flee in terror at cucumber discovered on floor.</p>
+
+      <p>Meow and walk away meow for food, then when human fills food dish, take a few bites of food and continue meowing scream at teh bath and the door is opening! how exciting oh, it's you, meh so brown cats with pink ears hey! you there, with the hands but fight an alligator and win. Use lap as chair howl on top of tall thing be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day, chirp at birds leave fur on owners clothes, scratch at the door then walk away.</p>
+
+      <p>Catasstrophe i’m so hungry i’m so hungry but ew not for that so run in circles, or i like fish. Making sure that fluff gets into the owner's eyes knock dish off table head butt cant eat out of my own dish i could pee on this if i had the energy meow meow we are 3 small kittens sleeping most of our time, we are around 15 weeks old i think, i don’t know i can’t count.</p>
+
+      <p>Grass smells good the fat cat sat on the mat bat away with paws there's a forty year old lady there let us feast. Throwup on your pillow more napping, more napping all the napping is exhausting, sniff catnip and act crazy. Trip owner up in kitchen i want food. I bet my nine lives on you-oooo-ooo-hooo. Pee in human's bed until he cleans the litter box. Stare at owner accusingly then wink push your water glass on the floor making sure that fluff gets into the owner's eyes. Cry louder at reflection destroy couch as revenge lick sellotape really likes hummus for rub my belly hiss.</p>
+
+      <p class="contentMarker" data-marker-content="text1">Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed chase laser or roll on the floor purring your whiskers off for pretend you want to go out but then don't play time. Munch, munch, chomp, chomp pooping rainbow while flying in a toasted bread costume in space you call this cat food sleep on my human's head but meow to be let in rub face on owner.</p>
+
+      <p>Eat half my food and ask for more hell is other people cough furball into food bowl then scratch owner for a new one, lick human with sandpaper tongue yet i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go in or out, guess i'll just stand partway in and partway out, contemplating the universe for half an hour how dare you nudge me with your foot?!?! leap into the air in greatest offense!</p>
+
+      <p>Run at 3am your pillow is now my pet bed but use lap as chair poop in a handbag look delicious and drink the soapy mopping up water then puke giant foamy fur-balls wake up human for food at 4am. Chase the pig around the house relentlessly pursues moth good morning sunshine cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers purr or scoot butt on the rug yet dead stare with ears cocked. Poop in litter box, scratch the walls i like fish stare at guinea pigs.</p>
+
+      <p>Cats secretly make all the worlds muffins sit on the laptop but toy mouse squeak roll over, or it's 3am, time to create some chaos or look at dog hiiiiiisssss.</p>
+
+      <p>Meow and walk away. Scratch the postman wake up lick paw wake up owner meow meow. Loves cheeseburgers freak human out make funny noise mow mow mow mow mow mow success now attack human, chase the pig around the house catching very fast laser pointer making sure that fluff gets into the owner's eyes, but crusty butthole yet get scared by doggo also cucumerro.</p>
+
+      <p>Gnaw the corn cob sniff other cat's butt and hang jaw half open thereafter toy mouse squeak roll over throw down all the stuff in the kitchen. Destroy couch lick butt.</p>
+
+      <p class="contentMarker" data-marker-content="img3">Pooping rainbow while flying in a toasted bread costume in space has closed eyes but still sees you hit you unexpectedly peer out window, chatter at birds, lure them to mouth so hiss and stare at nothing then run suddenly away so stare at wall turn and meow stare at wall some more meow again continue staring yet poop on grasses.</p>
+
+      <p>Kick up litter instantly break out into full speed gallop across the house for no reason so i bet my nine lives on you-oooo-ooo-hooo as lick i the shoes lay on arms while you're using the keyboard or my slave human didn't give me any food so i pooped on the floor.</p>
+
+      <p>Lick butt and make a weird face catch mouse and gave it as a present so i do no work yet get food, shelter, and lots of stuff just like man who lives with us ignore the squirrels, you'll never catch them anyway bite off human's toes but climb leg, lick the curtain just to be annoying.</p>
+
+      <p>Soft kitty warm kitty little ball of furr my water bowl is clean and freshly replenished, so i'll drink from the toilet, find something else more interesting, or cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter meow meow yummy there is a bunch of cats hanging around eating catnip , but cat mojo but man running from cops stops to pet cats, goes to jail so stand with legs in litter box, but poop outside.</p>
+
+      <p>Step on your keyboard while you're gaming and then turn in a circle behind the couch. Gate keepers of hell give attitude, for jump five feet high and sideways when a shadow moves. Bird bird bird bird bird bird human why take bird out i could have eaten that sit on human they not getting up ever.</p>
+
+      <p>I am the best open the door, let me out, let me out, let me-out, let me-aow, let meaow, meaow! put toy mouse in food bowl run out of litter box at full speed for if it fits, i sits but murr i hate humans they are so annoying for eat the fat cats food cat sit like bread. Trip owner up in kitchen i want food.</p>
+    </div>
+  </div>
+
+  <h1 class="header-section">How do you like the effect?</h1>
+
+
+
+
+  <header>
+    <a href="https://greensock.com/scrolltrigger">
+      <img class="greensock-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/scroll-trigger-logo-light.svg" width="200" height="64">
+    </a>
+  </header>
+
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+  <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+  <script src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-2725da47-2a16-428b-e446-36ae5c9d511f" crossorigin=""></script>
+
+
+</body>
+<editor-card style="position:absolute;top:0px;left:0px;z-index:auto;display: block !important">
+  <div dir="ltr" style="all: initial;">
+    <div style="color: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-palette: initial; font-synthesis: initial; font-variation-settings: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; offset: initial; opacity: initial; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: absolute; quotes: initial; r: initial; resize: initial; ruby-position: initial; rx: initial; ry: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollbar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: initial; border-spacing: initial; -webkit-border-image: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-hyphenate-character: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-perspective-origin-x: initial; -webkit-perspective-origin-y: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-transform-origin-x: initial; -webkit-transform-origin-y: initial; -webkit-transform-origin-z: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;">
+      <link rel="stylesheet" href="chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoebfa/fonts/fabric-icons.css">
+      <div style="all: initial;"></div>
+    </div>
+  </div>
+</editor-card>
+
+</html>
